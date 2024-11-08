@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="flex justify-center fixed top-5 left-0 w-full">
+        <div className="flex justify-center fixed top-10 left-0 w-full">
           <Menubar>
             <MenubarMenu>
               <div className="flex justify-center space-x-4">

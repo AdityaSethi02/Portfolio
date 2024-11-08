@@ -5,10 +5,12 @@ export const Resume = () => {
     }
 
     return (
-      <a href="/Aditya Sethi_Resume.pdf" download>
-        <button onClick={handleClick} className="bg-blue-500 text-white text-3xl px-6 py-3 rounded-2xl shadow-lg hover:bg-blue-600 ">
-            Resume
-        </button>
-      </a>
+        <div className="flex flex-col">
+            <a href="/Aditya Sethi_Resume.pdf" download>
+                <button onClick={handleClick} className="bg-blue-500 text-white text-3xl px-6 py-3 rounded-0.5xl shadow-lg hover:bg-blue-600 ">
+                    Resume
+                </button>
+            </a>
+        </div>
     );
   };
