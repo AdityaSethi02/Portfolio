@@ -4,7 +4,7 @@ import { Resume } from "./Resume";
 import { Intro } from "./Intro";
 import { Follow } from "./Follow";
 
-export const About = () => {
+export const HomePage = () => {
   return (
     <div className="flex flex-col justify-center items-center text-white">
       <div className="text-center mb-20 text-7xl font-bold">

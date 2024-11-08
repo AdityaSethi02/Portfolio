@@ -36,10 +36,10 @@ export default function RootLayout({
           <Menubar>
             <MenubarMenu>
               <div className="flex justify-center space-x-4">
-              <MenubarTrigger>About</MenubarTrigger>
-              <MenubarTrigger>Skills</MenubarTrigger>
-              <MenubarTrigger>Projects</MenubarTrigger>
-              <MenubarTrigger>Contact</MenubarTrigger>
+              <MenubarTrigger><a href="#about">About</a></MenubarTrigger>
+              <MenubarTrigger><a href="#skills">Skills</a></MenubarTrigger>
+              <MenubarTrigger><a href="#projects">Projects</a></MenubarTrigger>
+              <MenubarTrigger><a href="#contact">Contact</a></MenubarTrigger>
               </div>
             </MenubarMenu>
           </Menubar>
