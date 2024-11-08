@@ -1,4 +1,4 @@
-import { About } from "@/components/About";
+import { About } from "@/components/About/About";
 import { HomePage } from "@/components/HomePage/HomePage";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center min-h-screen" >
         <HomePage />
       </div>
-      <div id="about" className="flex flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <About />
       </div>
       <div id="skills" className="flex flex-col justify-center items-center min-h-screen">

@@ -9,6 +9,7 @@ export const Intro = () => {
                 <Typewriter
                     words={[
                         " Aditya Sethi",
+                        " a Web Developer!",
                         " a Fullstack Developer!",
                         " a Backend Developer!",
                         " a Frontend Developer!",
