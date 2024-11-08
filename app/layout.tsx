@@ -32,10 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className={`flex justify-between items-center w-full fixed top-0 p-10 ${styles.myDiv}`}>
+        <div className={`flex justify-between items-center w-full fixed top-0 ${styles.myDiv}`}>
           <div className="text-2xl font-bold text-white pl-20">
             <a href="#">
-              <img src="/skills/typescript.png" className="w-20 h-20" />
+              <img src="/skills/typescript.png" className="w-10 h-10" />
             </a>
           </div>
 
