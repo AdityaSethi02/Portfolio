@@ -1,20 +1,24 @@
-import { About } from "@/components/About/About";
+import { About } from "@/components/About";
+import { HomePage } from "@/components/HomePage/HomePage";
 
 export default function Home() {
   return(
     <div className="flex flex-col items-center">
-    <div className="flex flex-col justify-center items-center min-h-screen" >
-      <About />
-    </div>
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      {/* <Skills /> */}
-    </div>
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      {/* <Projects /> */}
-    </div>
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      {/* <Contact /> */}
-    </div>
+      <div className="flex flex-col justify-center items-center min-h-screen" >
+        <HomePage />
+      </div>
+      <div id="about" className="flex flex-col justify-center items-center min-h-screen">
+        <About />
+      </div>
+      <div id="skills" className="flex flex-col justify-center items-center min-h-screen">
+        {/* <Skills /> */}
+      </div>
+      <div id="projects" className="flex flex-col justify-center items-center min-h-screen">
+        {/* <Projects /> */}
+      </div>
+      <div id="contact" className="flex flex-col justify-center items-center min-h-screen">
+        {/* <Contact /> */}
+      </div>
     </div>
   )
 }
