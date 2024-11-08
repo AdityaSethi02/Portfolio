@@ -6,6 +6,7 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "@/components/ui/menubar";
+import styles from "./styles.module.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="flex justify-between items-center w-full fixed top-0 p-10">
+        <div className={`flex justify-between items-center w-full fixed top-0 p-10 ${styles.myDiv}`}>
           <div className="text-2xl font-bold text-white pl-20">
             <a href="#">
               <img src="/skills/typescript.png" className="w-20 h-20" />

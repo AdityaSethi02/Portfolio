@@ -1,0 +1,9 @@
+/* styles.module.css */
+.myDiv {
+    background-color: var(--background);
+    background-image:
+      linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+  
