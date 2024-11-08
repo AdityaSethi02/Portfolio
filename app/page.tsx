@@ -1,9 +1,18 @@
-import { HomePage } from "@/components/HomePage";
+import { About } from "@/components/About";
+import { HomePage } from "@/components/HomePage/HomePage";
 
 export default function Home() {
   return(
-    <div className="flex justify-center items-center min-h-screen" style={{ marginTop: '3.75rem' }}>
+    <div className="flex flex-col items-center">
+    <div className="flex flex-col justify-center items-center min-h-screen" >
       <HomePage />
+    </div>
+    <div className="w-full">
+      <About />
+      </div>
+      {/* <Skills /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
     </div>
   )
 }

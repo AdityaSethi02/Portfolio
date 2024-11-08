@@ -6,7 +6,7 @@ import { Follow } from "./Follow";
 
 export const HomePage = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-white">
+    <div className="flex flex-col justify-center items-center text-white mt-40">
       <div className="text-center mb-20 text-7xl font-bold">
         <Intro />
       </div>
