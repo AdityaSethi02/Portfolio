@@ -2,16 +2,21 @@
 
 import { Resume } from "./Resume";
 import { Intro } from "./Intro";
+import { Follow } from "./Follow";
 
 export const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen text-white">
+    <div className="flex flex-col justify-center items-center text-white">
       <div className="text-center mb-20 text-7xl font-bold">
         <Intro />
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-20">
         <Resume />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <Follow />
       </div>
 
     </div>
