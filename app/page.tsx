@@ -1,5 +1,6 @@
 import { About } from "@/components/About/About";
 import { HomePage } from "@/components/HomePage/HomePage";
+import { Skills } from "@/components/Skills";
 
 export default function Home() {
   return(
@@ -11,7 +12,7 @@ export default function Home() {
         <About />
       </div>
       <div id="skills" className="flex flex-col justify-center items-center min-h-screen">
-        {/* <Skills /> */}
+        <Skills />
       </div>
       <div id="projects" className="flex flex-col justify-center items-center min-h-screen">
         {/* <Projects /> */}

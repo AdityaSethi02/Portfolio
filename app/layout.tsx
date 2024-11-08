@@ -5,8 +5,7 @@ import {
   Menubar,
   MenubarMenu,
   MenubarTrigger,
-} from "@/components/ui/menubar"
-
+} from "@/components/ui/menubar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,14 +31,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="flex justify-center fixed top-10 left-0 w-full">
+        <div className="flex justify-between items-center w-full fixed top-0 p-10">
+          <div className="text-2xl font-bold text-white pl-20">
+            <a href="#">
+              <img src="/skills/typescript.png" className="w-20 h-20" />
+            </a>
+          </div>
+
           <Menubar>
             <MenubarMenu>
-              <div className="flex justify-center space-x-4">
-              <MenubarTrigger><a href="#about">About</a></MenubarTrigger>
-              <MenubarTrigger><a href="#skills">Skills</a></MenubarTrigger>
-              <MenubarTrigger><a href="#projects">Projects</a></MenubarTrigger>
-              <MenubarTrigger><a href="#contact">Contact</a></MenubarTrigger>
+              <div className="flex space-x-4 ml-auto">
+                <MenubarTrigger><a href="#about">About</a></MenubarTrigger>
+                <MenubarTrigger><a href="#skills">Skills</a></MenubarTrigger>
+                <MenubarTrigger><a href="#projects">Projects</a></MenubarTrigger>
+                <MenubarTrigger><a href="#contact">Contact</a></MenubarTrigger>
               </div>
             </MenubarMenu>
           </Menubar>
